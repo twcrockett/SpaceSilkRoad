@@ -82,5 +82,5 @@ year_group = sats_all.groupby(['Year of Launch']).sum()
 # month_group.to_excel("month_group.xlsx")
 # sats_all.to_excel("sats_all.xlsx")
 
-# month_group[['North Involvement', 'South Involvement', 'Other Involvement']].plot(kind='bar', stacked=True)
-year_group[['North Involvement', 'South Involvement', 'Other Involvement']].plot(kind='bar', stacked=True)
+month_group[['North Involvement', 'South Involvement', 'Other Involvement']].plot(kind='bar', stacked=True)
+# year_group[['North Involvement', 'South Involvement', 'Other Involvement']].plot(kind='bar', stacked=True)
